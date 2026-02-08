@@ -3,6 +3,8 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
+import NeoCardFloatingBadge from './components/NeoCardFloatingBadge';
+
 import { 
   Cross, 
   MapPin, 
@@ -89,6 +91,7 @@ export default function CommunionPage() {
              <div className="absolute top-[-20%] right-[-10%] w-[600px] h-[600px] bg-blue-600/20 rounded-full blur-[120px] animate-pulse"></div>
              <div className="absolute bottom-[-20%] left-[-10%] w-[500px] h-[500px] bg-indigo-600/10 rounded-full blur-[100px]"></div>
              <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
+                   <NeoCardFloatingBadge theme="light" />
 
              <motion.div 
                 initial={{ scale: 0.9, opacity: 0 }}
@@ -137,6 +140,8 @@ export default function CommunionPage() {
       <DetailsSection />
       <TimelineSection />
       <InstaTeaser />
+        <NeoCardFloatingBadge theme="light" />
+
       
       {/* RSVP Fixed Button */}
       <div className="fixed bottom-6 left-0 right-0 z-50 flex justify-center pointer-events-none px-6">
