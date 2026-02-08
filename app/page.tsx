@@ -28,16 +28,16 @@ const DATA = {
   verse: "Je suis la lumière du monde. Celui qui me suit ne marchera pas dans les ténèbres.",
   verseRef: "Jean 8:12",
   church: {
-    name: "Église Notre-Dame",
-    address: "Place du Parvis, Versailles",
+    name: "Cathédrale Notre-Dame de Sion",
+    address: "Rue de la Cathédrale 13, 1950 Sion",
     time: "10h30",
-    map: "https://goo.gl/maps/example"
+    map: "https://maps.app.goo.gl/HJCoCcaJembNpfHx9"
   },
   party: {
     name: "Garden Party",
-    address: "Domaine des Lys, 78000 Versailles",
+    address: "Rue des châteaux 18, 1950 Sion",
     time: "12h30",
-    map: "https://goo.gl/maps/example"
+    map: "https://maps.app.goo.gl/T8WKRfkV3dyd2NEt5"
   },
   images: {
     hero: "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=1920&auto=format&fit=crop", 
