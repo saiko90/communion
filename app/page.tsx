@@ -212,7 +212,7 @@ function HeroSection() {
                   </div>
                   <div className="hidden md:block w-1 h-1 bg-slate-500 rounded-full" />
                   <div className="flex items-center gap-2">
-                      <MapPin size={18} className="text-blue-500" /> Versailles
+                      <MapPin size={18} className="text-blue-500" /> Cathédrale Dame de Sion
                   </div>
               </div>
           </motion.div>
